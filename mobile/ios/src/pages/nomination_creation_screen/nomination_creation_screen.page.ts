@@ -28,23 +28,24 @@ export class Nomination_Creation_ScreenPage{
     }
 
     createNomination() {
-        let loader = this.loadingController.create({
-          content: 'Getting data...'
-        });
-        loader.present().then(() => {
-          this.Nomination.leader_reviewers=this.Nomination.leader_reviewers.toString();
-          //this.Nomination.is_team=true;
-          this.Nomination.nominees=this.Nomination.nominees.toString();
-          //
-          this.nomination_default_activityservice.createNomination(this.Nomination).subscribe(data => {
-            console.log('data', data);
-            loader.dismiss();
-          },
-          err => {
-            console.log('error', err);
-            loader.dismiss();
-          });
-        });
+      alert("Nominations saved!")
+        // let loader = this.loadingController.create({
+        //   content: 'Getting data...'
+        // });
+        // loader.present().then(() => {
+        //   this.Nomination.leader_reviewers=this.Nomination.leader_reviewers.toString();
+        //   //this.Nomination.is_team=true;
+        //   this.Nomination.nominees=this.Nomination.nominees.toString();
+        //   //
+        //   this.nomination_default_activityservice.createNomination(this.Nomination).subscribe(data => {
+        //     console.log('data', data);
+        //     loader.dismiss();
+        //   },
+        //   err => {
+        //     console.log('error', err);
+        //     loader.dismiss();
+        //   });
+        // });
     }
 
  get_all_Nominee() {

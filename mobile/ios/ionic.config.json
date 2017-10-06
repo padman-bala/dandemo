@@ -2,16 +2,17 @@
   "name": "ionic2-app-base",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "proxies": [
     {
       "path": "/auth",
       "proxyUrl": "http://localhost:8080/auth"
     },
     {
-      "path":"/api",
-      "proxyUrl":"http://localhost:8080/api"
+      "path": "/api",
+      "proxyUrl": "http://localhost:8080/api"
     }
   ]
 }
-

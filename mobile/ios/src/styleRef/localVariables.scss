@@ -1,0 +1,24 @@
+
+// font-size : 8 10 12 14 16 18 24 32;
+$fontxxxs : 8px;
+$fontxxs : 10px;
+$fontxs : 12px;
+$fontsm : 14px;
+$fontmd : 16px;
+$fontlg : 18px;
+$fontxl : 24px;
+$fontxxl : 32px;
+
+$zero : 0px;
+$small : 5px;
+$regular : 10px;
+$long : 20px;
+
+$thin : 300;
+$thick : 500;
+
+// media queries
+$narrow : 'only screen and (max-width:360px)';
+$wide : 'only screen and (min-width:360px)';
+$landScape : 'only screen and (orientation:landscape)';
+$widerScreen : 'only screen and (min-width:768px)';

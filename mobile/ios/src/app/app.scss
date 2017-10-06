@@ -1,16 +1,128 @@
-// http://ionicframework.com/docs/v2/theming/
+.sidemenu-hoteling{
+    .profile-image{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        border:2px solid #fff;
+    }
+    .item-icon-image{
+        background:#282A29;
+        color:#fff;
+        >.item-inner{
+            padding:0px;
+            border:none;
+        }
+        ion-avatar img{
+            width:50px !important;
+            height:50px !important;
+            border:2px solid #fff;
+        }
+    }
+    .toolbar-title{
+        font-size:20px;
+        color:#8C8C8C !important;
+        font-weight:400;
+    }
+    ion-content{
+        background-color: #282A29;
+        color:#fff;
+    }
+    button{
+        border-left:5px ;//solid #282A29;
+        color: #fff;
+        text-align: center;
+        background:$pwcOrange;
+        border-top:none;
+        padding-left:27px;
+        font-weight: bold;
+        font-size: 16px;        
+        &.activated{
+            background:#282A29;        
+        }
+        .item-inner{
+            border:none !important;
+            background-image:none !important;
+            padding:7px 0px;
+        }
+        &.item-block:first-child{
+            border-top:none !important;
+        }
+        &.item-block:last-child{
+            border-bottom:none !important;
+        }
+    }
+    .toolbar-background {
+      background-color: #282A29 ;
+      border: none;
+    }
+    .border-left-class{
+        border-color:$pwcBurgundy;
+    }
+}
 
+.button-inner
+{
+    color: #fff;
+    text-decoration-color: #fff;
+}
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+.helper { display: inline-block; height: 100%; vertical-align: middle; }
+
+.button-ios-menu-left
+{
+    background-color: $pwcOrange;
+}
+
+.back-button{
+    color:#222;
+}
+.toolbar-background {
+    background: $pwcRed;
+}
+.bar-button{
+    color:#222;
+}
+.border-#ccc{
+    border-bottom:1px solid #ccc;
+}
+ion-title{
+    &.title{
+        padding:0px !important;
+    }
+    >.toolbar-title-ios{
+        font-size:14px;
+        padding-top:20px;
+    }
+    >.toolbar-title-md{
+        font-size:14px;
+        color:#222;
+    }
+}
+ion-modal {
+    .modal-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius:0px !important;
+    }
+    ion-backdrop{
+        opacity:0 !important;
+    }
+}
+.loading-wrapper{
+    background:transparent !important;
+    padding:0px !important;
+     .spinner{
+        height: 33px !important;
+        width:33px !important;
+    }
+}
+ion-loading{
+    >ion-backdrop{
+        background:#ececec !important;
+    }
+}
+

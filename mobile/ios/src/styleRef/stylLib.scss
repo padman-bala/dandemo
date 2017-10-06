@@ -1,0 +1,389 @@
+@import "./localVariables";
+//Font Family
+georgia {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+arial{
+  font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif ;
+}
+
+pwcFont{
+  font-family : 'pwc';
+}
+// font-size(prop,value)
+//   prop font-size[value]
+
+//Font size
+font-xxxs{
+  line-height: $fontxxs+ 2px + 2px !important;
+  font-size: $fontxxxs !important;
+}
+
+
+font-xxs{
+  line-height: $fontxxs+ 2px  !important;
+  font-size: $fontxxs !important;
+}
+
+
+font-xs{
+  line-height: $fontxs + 2px !important;
+  font-size: $fontxs !important;
+}
+
+
+font-sm{
+  line-height: $fontsm + 2px !important;
+  font-size: $fontsm !important;
+}
+
+
+font-md{
+  line-height: $fontmd + 2px !important;
+  font-size: $fontmd !important;
+}
+
+
+font-lg{
+  line-height: $fontlg + 2px !important;
+  font-size: $fontlg !important;
+}
+
+
+font-xl{
+  line-height: $fontxl + 2px !important;
+  font-size: $fontxl !important;
+}
+
+
+font-xxl{
+  line-height: $fontxxl+ 2px  !important;
+  font-size: $fontxxl !important;
+}
+
+
+ //Font weight
+font-thin{
+  font-weight: $thin !important;
+}
+
+
+font-thick{
+  font-weight: $thick !important;
+}
+
+
+ //Font Color:
+font-white{
+  color: $white !important;
+
+}
+
+font-light{
+  color: $grey200 !important;
+
+}
+
+font-med{
+  color: $grey400 !important;
+
+}
+
+font-grey{
+  color: $grey600 !important;
+
+}
+
+font-dark{
+  color: $grey900 !important;
+
+}
+
+font-black{
+  color: $black !important;
+
+}
+
+font-lightOrange{
+  color: $lightOrange !important;
+
+}
+
+font-orange{
+  color: $pwcOrange !important;
+}
+
+// font-style
+.font-xxxs{
+  line-height: $fontxxxs+ 2px + 2px !important;
+  font-size: $fontxxxs !important;
+}
+
+
+.font-xxs{
+  line-height: $fontxxs+ 2px  !important;
+  font-size: $fontxxs !important;
+}
+
+
+.font-xs{
+  line-height: $fontxs + 2px !important;
+  font-size: $fontxs !important;
+}
+
+
+.font-sm{
+  line-height: $fontsm + 2px !important;
+  font-size: $fontsm !important;
+}
+
+
+.font-md{
+  line-height: $fontmd + 2px !important;
+  font-size: $fontmd !important;
+}
+
+
+.font-lg{
+  line-height: $fontlg + 2px !important;
+  font-size: $fontlg !important;
+}
+
+
+.font-xl{
+  line-height: $fontxl + 2px !important;
+  font-size: $fontxl !important;
+}
+
+
+.font-xxl{
+  line-height: $fontxxl+ 2px  !important;
+  font-size: $fontxxl !important;
+}
+
+
+ //Font weight
+.font-thin{
+  font-weight: $thin !important;
+}
+
+.font-thick{
+  font-weight: $thick !important;
+
+}
+
+ //Font Color:
+.font-white{
+  color: $white !important;
+
+}
+
+.font-light{
+  color: $grey200 !important;
+
+}
+
+.font-med{
+  color: $grey400 !important;
+
+}
+
+.font-grey{
+  color: $grey600 !important;
+
+}
+
+.font-dark{
+  color: $grey900 !important;
+
+}
+
+.font-black{
+  color: $black !important;
+
+}
+
+.font-lightOrange{
+  color: $lightOrange !important;
+
+}
+
+.font-orange{
+  color: $pwcOrange !important;
+}
+
+.font-burgundy{
+  color: $pwcBurgundy !important;
+}
+
+//Font Style
+.font-italic{
+  font-style: italic;
+}
+
+//Text Align
+.text-right{
+  text-align: right !important;
+
+}
+
+.text-left{
+  text-align :left !important;
+
+}
+
+.text-center{
+  text-align: center !important;
+
+}
+
+.text-justify{
+  text-align :justify !important;
+
+}
+
+//Wraping
+.normal-white-space{
+  white-space: normal;
+
+}
+
+.text-wraping{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+//Float
+.float-right{
+  float: right !important;
+
+}
+
+.float-left{
+  float: left !important;
+
+}
+
+
+//Padding
+.padding-zero{
+  padding: $zero !important;
+
+}
+
+.padding-small{
+  padding: $small !important;
+
+}
+
+.padding-regular{
+  padding: $regular !important;
+
+}
+
+.padding-long{
+  padding :$long !important;
+
+}
+
+.padding-top-long{
+  padding-top: $long !important;
+
+}
+
+.padding-top-regular{
+  padding-top: $regular !important;
+
+}
+
+.padding-top-small{
+  padding-top: $small !important;
+
+}
+
+.padding-top-zero{
+  padding-top: $zero !important;
+
+}
+
+.padding-right-long{
+  padding-right: $long !important;
+
+}
+
+.padding-right-regular{
+  padding-right :$regular !important;
+
+}
+
+.padding-right-small{
+  padding-right :$small !important;
+
+}
+
+.padding-right-zero{
+  padding-right :$zero !important;
+
+}
+
+.padding-bottom-long{
+  padding-bottom :$long !important;
+
+}
+
+.padding-bottom-regular{
+  padding-bottom :$regular !important;
+
+}
+
+.padding-bottom-small{
+  padding-bottom :$small !important;
+
+}
+
+.padding-bottom-zero{
+  padding-bottom :$zero !important;
+
+}
+
+.padding-left-long{
+  padding-left: $long !important;
+
+}
+
+.padding-left-regular{
+  padding-left: $regular !important;
+
+}
+.padding-left-small{
+  padding-left: $small !important;
+
+}
+
+.padding-left-zero{
+  padding-left: $zero !important;
+
+}
+
+//Border
+.border-none{
+  border: none !important;
+}
+.margin-auto{
+  margin:auto !important;
+}
+
+//remove hyperlink
+.remove-hyprlink{
+  a{
+    text-decoration: none;
+    color: $grey600;
+    pointer-events: none;
+  }
+
+}
+
+
